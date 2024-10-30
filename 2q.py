@@ -1,0 +1,5 @@
+n=int(input())
+oc=oct(n)
+print(oc[2:])
+de=int(oc,8)
+print(de)
